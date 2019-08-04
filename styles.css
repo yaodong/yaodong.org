@@ -1,0 +1,86 @@
+body {
+  background: whitesmoke;
+  font-family: Poppins, sans-serif;
+  color: #3d404f;
+  font-size: 13px;
+}
+
+a {
+  color: #f26b6e;
+}
+
+.container {
+  text-align: left;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 60px;
+  max-width: 700px;
+}
+
+.welcome {
+  font-size: 2.37rem;
+  margin-bottom: 0.64rem;
+}
+h1.name-section {
+  margin-top: 0;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  line-height: 1.25;
+  font-size: 4rem;
+}
+.name {
+  color: #f05457;
+}
+.bio p {
+  font-size: 1rem;
+  padding: 0 0.1rem;
+  line-height: 1.5rem;
+}
+.bio h3 {
+  margin-top: 2rem;
+}
+
+/* On screens that are 992px wide or less */
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .welcome {
+    font-size: 2rem;
+  }
+  h1.name-section {
+    font-size: 3rem;
+  }
+}
+
+/* On screens that are 600px wide or less */
+@media screen and (max-width: 640px) {
+  .container {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .welcome {
+    font-size: 1.5rem;
+  }
+  h1.name-section {
+    font-size: 2.5rem;
+  }
+}
+
+/* On screens that are 600px wide or less */
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .welcome {
+    font-size: 1.2rem;
+  }
+  h1.name-section {
+    font-size: 2rem;
+  }
+}
